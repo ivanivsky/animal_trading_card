@@ -1,0 +1,51 @@
+
+body {
+  background-color:  #ffccb3;
+  font-family: Georgia, serif;
+  color: dimgray;
+  font-size: 10.5px
+}
+
+.big_box {
+  border: 1px solid dimgray;
+  width: 300px;
+  height: 460px;
+  text-align: left;
+  box-shadow: 5px 10px;
+  padding: 15px;
+}
+
+
+.caption_box {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid dimgray;
+  padding: 10px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;   /* Opera/IE 8+ */
+  /* I found the above on stackoverflow:
+  https://stackoverflow.com/questions/779434/how-do-i-prevent-the-padding-property-from-changing-width-or-height-in-css */
+}
+
+h3 {
+  font-size: 15px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
